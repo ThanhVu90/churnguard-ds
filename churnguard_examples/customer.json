@@ -1,0 +1,14 @@
+{
+  "age": 31,
+  "tenure_months": 4,
+  "monthly_charges": 96.5,
+  "support_tickets": 5,
+  "payment_delay_days": 18,
+  "num_products": 1,
+  "satisfaction_score": 2,
+  "contract_type": "monthly",
+  "internet_type": "fiber",
+  "used_mobile_app": 0,
+  "is_active_recently": 0
+}
+
