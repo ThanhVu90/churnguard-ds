@@ -1,7 +1,29 @@
 # ChurnGuard DS
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Domain](https://img.shields.io/badge/Domain-Data%20Science-teal)
+![Model](https://img.shields.io/badge/Model-Logistic%20Regression%20from%20scratch-1f6feb)
+![Tests](https://img.shields.io/badge/Tests-3%20passing-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-black)
+
 `ChurnGuard DS` is a portfolio-ready Data Science project for predicting customer churn and explaining retention risk.
 It is built to look credible in interviews: the codebase includes synthetic-but-realistic telecom customer data, a logistic regression model implemented from scratch, evaluation metrics, risk segmentation, and explanation of the most important churn drivers.
+
+## Recruiter Snapshot
+
+- Business problem: identify customers at high risk of churn before cancellation happens
+- What I built: an end-to-end supervised learning pipeline with custom logistic regression, evaluation, and local explanation
+- Technical signal: feature engineering, scaling, one-hot encoding, metrics, CLI tooling, deterministic data generation, tests
+- Evidence: `Accuracy = 0.95`, `F1 = 0.833`, `ROC AUC = 0.992` on the sample evaluation split
+
+## Results Snapshot
+
+| Area | Evidence |
+|---|---|
+| Predictive quality | `Accuracy = 0.95`, `Precision = 0.909`, `Recall = 0.769`, `F1 = 0.833`, `ROC AUC = 0.992` |
+| Explainability | per-customer churn probability, risk band, top risk drivers, top retention drivers |
+| Engineering quality | reproducible data generation, package structure, CLI commands, CSV export, automated tests |
+| Business framing | retention prioritization for telecom, SaaS, subscription, and banking use cases |
 
 ## Tech Stack
 
@@ -117,6 +139,13 @@ F1 Score : 0.833
 ROC AUC  : 0.992
 ```
 
+## Interview Talking Points
+
+- Why logistic regression is still a strong baseline for churn prediction when interpretability matters
+- How feature scaling and one-hot encoding support a reproducible classical ML workflow
+- Why ROC AUC, precision, recall, and F1 all matter more than accuracy alone in churn problems
+- How this repo could be extended into a dashboard, notebook analysis, or model comparison study
+
 ## Why This Is Strong For CV
 
 - Solves a classic business problem used in telecom, SaaS, banking, and subscription products
@@ -141,3 +170,7 @@ ROC AUC  : 0.992
 ## CV Copy
 
 Ready-to-paste bullets are available in [docs/CHURN_CV_BULLETS.md](docs/CHURN_CV_BULLETS.md).
+
+## License
+
+This project is released under the [MIT License](LICENSE).
